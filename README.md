@@ -14,7 +14,7 @@ Simple proyect to test mcp, Ml model and FastApi
 
 - launch mcp sever:
 
-     run mcp dev ./mcp/server.py
+     uv run mcp dev ./mcp/server.py
 
 
 This may require having node installed with:
@@ -24,4 +24,4 @@ This may require having node installed with:
 
 - agent
 
-     uv run agent/singleagent.py
+     uv run agent/Localsingleagent.py
