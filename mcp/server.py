@@ -1,10 +1,16 @@
 from mcp.server.fastmcp import FastMCP
 import json
 import requests
+import logging
 
 # Create an MCP server
 mcp = FastMCP("model-api-mcp")
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    filename="mcp_server.log"
+)
 
 # Add an addition tool
 @mcp.tool()

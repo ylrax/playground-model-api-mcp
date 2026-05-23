@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "beeai-framework>=0.1.80",
     "fastapi>=0.136.1",
     "gunicorn>=26.0.0",
     "ipykernel>=7.2.0",
